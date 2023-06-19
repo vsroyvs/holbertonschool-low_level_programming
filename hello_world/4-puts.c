@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - returning a string 
+ * main - returning a string
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
