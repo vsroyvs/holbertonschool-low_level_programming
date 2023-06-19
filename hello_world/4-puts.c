@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - returning a string 
  *
  * Return: Always 0 (Success)
