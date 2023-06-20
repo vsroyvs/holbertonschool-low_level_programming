@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
+ * main - Assing a random number and print a result depens of conditions
  *
- * main - Entry point
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,12 +14,12 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n%10;
-	if(l > 5)
-	{	
-		printf("Last digit of %d is %dand is greater than 5\n", n, l);
+	l = n % 10;
+	if (l > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 	}
-	else if(l == 0)
+	else if (l == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
