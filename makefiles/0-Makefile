@@ -1,6 +1,4 @@
 all: school
 
 school:
-	touch school
-	cat school
-	chmod u+x school
+	gcc school.c -o school
