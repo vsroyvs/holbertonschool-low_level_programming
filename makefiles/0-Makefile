@@ -2,4 +2,5 @@ all: school
 
 school:
 	touch school
+	cat school
 	chmod u+x school
