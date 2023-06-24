@@ -19,9 +19,9 @@ int main(void)
 	{
 		f = a + b;
 		if (f % 2 == 0)
-			sum += f;
+			sum = sum + f;
 
-		if (f + b > 4000000)
+		if (f + b > 20)
 			i = f + b;
 		a = b;
 		b = f;
