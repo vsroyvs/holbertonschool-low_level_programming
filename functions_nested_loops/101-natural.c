@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * natural - prints the sum of all the multiples of 3 or 5 below 1024
+ * main - prints the sum of all the multiples of 3 or 5 below 1024
  *
+ * Return: Always 0 (Success)
  */
 
-void natural(void)
+void main(void)
 {
 	int i, sum, sum2, r, res;
 
@@ -26,4 +27,6 @@ void natural(void)
 		r = sum + sum2 - res;
 	}
 	printf("%d", r);
+
+	return(0);
 }
