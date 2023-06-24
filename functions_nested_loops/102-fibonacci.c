@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int a,b,f,i;
+	long int a, b, f, i;
 
 	a = 0;
 	b = 1;
 
-	for (i = 0; i < 50; i++ )
+	for (i = 0; i < 50; i++)
 	{
 		f = a + b;
 		if (i == 49)
@@ -24,5 +24,5 @@ int main(void)
 		a = b;
 		b = f;
 	}
-	return 0;
+	return (0);
 }
