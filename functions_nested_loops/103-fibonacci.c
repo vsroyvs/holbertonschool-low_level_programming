@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	long int a, b, f, i, sum = 0;
+	unsigned long a, b, f, i; 
+	float sum = 0;
 
 	a = 0;
 	b = 1;
@@ -26,6 +27,6 @@ int main(void)
 		a = b;
 		b = f;
 	}
-	printf("%ld", sum);
+	printf("%.0f\n", sum);
 	return (0);
 }
