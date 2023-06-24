@@ -8,9 +8,9 @@
 
 void natural(void)
 {
-	int i, sum1, sum2, r, res;
+	int i, sum, sum2, r, res;
 
-	sum1 = 0;
+	sum = 0;
 	sum2 = 0;
 	r = 0;
 	res = 0;
