@@ -26,7 +26,7 @@ int main(void)
 			res = res - i;
 		r = sum + sum2 - res;
 	}
-	printf("%d", r);
+	printf("%d\n", r);
 
 	return (0);
 }
