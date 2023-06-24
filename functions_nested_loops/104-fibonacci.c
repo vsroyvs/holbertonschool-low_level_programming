@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	float a, b, f, i;
+	long double a, b, f;
+	int i;
 
 	a = 0;
 	b = 1;
@@ -18,9 +19,9 @@ int main(void)
 	{
 		f = a + b;
 		if (i == 97)
-			printf("%.0f\n", f);
+			printf("%0.Lf\n", f);
 		else
-			printf("%.0f, ", f);
+			printf("%0.Lf, ", f);
 		a = b;
 		b = f;
 	}
