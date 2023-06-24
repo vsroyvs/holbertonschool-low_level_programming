@@ -18,9 +18,9 @@ int main(void)
 	{
 		f = a + b;
 		if (i == 49)
-			printf("%d\n", f);
+			printf("%ld\n", f);
 		else
-			printf("%d, ", f);
+			printf("%ld, ", f);
 		a = b;
 		b = f;
 	}
