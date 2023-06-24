@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-void main(void)
+int main(void)
 {
 	int i, sum, sum2, r, res;
 
