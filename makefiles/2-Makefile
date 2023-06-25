@@ -8,10 +8,10 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)	
 
-%.o: %.c
-	
+main.o: main.c m.h
+	$(CC) -c -o $@ $<
 
-clean:
-	rm -f school $(OBJ)
+school.o: school.c m.h
+	$(CC) -c -o $@ $<
 
 
