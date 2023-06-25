@@ -8,9 +8,9 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	
 
-main.0: main.c m.h
+main.o: main.c m.h
 	$(CC) -c -o $@ $<
 
-school.0: school.c m.h
+school.o: school.c m.h
 	$(CC) -c -o $@ $<
 
