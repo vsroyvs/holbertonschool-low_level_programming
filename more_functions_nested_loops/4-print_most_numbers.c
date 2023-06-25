@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Use _putchar function to print the alphabet 0 - 9 less 2 and 4
- *
+ * print_most_numbers - Use _putchar function to print the alphabet 0 - 9 
+ * 			less 2 and 4
  *
  */
 
