@@ -1,0 +1,9 @@
+CC=cgg
+SRC=main.c school.c
+OBJ=main.o school.o
+NAME=school
+
+all: school
+
+school: $(OBJ)
+	$(CC) -o school $(OBJ)	
