@@ -21,7 +21,7 @@ void more_numbers(void)
 			_putchar(ch);
 			if (i == '1' && ch == '4')
 			{
-				ch = '10';
+				ch = 10;
 			}	
 		}
 	}
