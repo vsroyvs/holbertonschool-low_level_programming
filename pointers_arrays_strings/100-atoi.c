@@ -17,7 +17,7 @@ int _atoi(char *s)
 		i++;
 	}
 	for (j = 0; j < i; j++)
-	{	
+	{
 		if (s[j] == '-')
 			cm++;
 		if (s[j] >= '0' && s[j] <= '9')
