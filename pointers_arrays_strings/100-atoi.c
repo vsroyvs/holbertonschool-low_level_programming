@@ -17,13 +17,14 @@ int _atoi(char *s)
 		i++;
 	}
 	for (j = 0; j < i; j++)
-	{	if (s[j] == '-')
+	{	
+		if (s[j] == '-')
 			cm++;
 		if (s[j] >= '0' && s[j] <= '9')
 		{
 			digit = s[j] - '0';
 			n = n * 10 + digit;
-			if ( s[j + 1] < '0' || s[j + 1] > '9')
+			if (s[j + 1] < '0' || s[j + 1] > '9')
 				break;
 		}
 	}
