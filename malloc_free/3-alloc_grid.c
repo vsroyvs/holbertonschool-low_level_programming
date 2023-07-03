@@ -8,7 +8,7 @@
  * Return: pointer to two array
  */
 
-char **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **aaa;
 	int x, y;
