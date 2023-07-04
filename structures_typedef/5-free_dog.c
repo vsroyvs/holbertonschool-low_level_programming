@@ -10,5 +10,7 @@ void free_dog(dog_t *d)
 {
 	if (d == NULL)
 		d = malloc(sizeof(dog_t));
+	free(d->name);
+	free(d->owner);
 	free(d);
 }
