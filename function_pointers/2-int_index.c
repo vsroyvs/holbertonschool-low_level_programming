@@ -24,7 +24,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 			if (cmp(array[i]))
 				count++;
 		}
-		return (count);
+		if (count)
+			return (count);
 	}
 	return (-1);
 }
