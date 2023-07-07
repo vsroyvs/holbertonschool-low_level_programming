@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all_ - function that prints a string
+ * sum_them_all - function that prints a string
  * @n: number of folloing variables
  *
  * Return: return the sum of all variables
